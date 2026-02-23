@@ -1,16 +1,43 @@
-# React + Vite
+# 💻 Meu Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do meu portfólio pessoal, desenvolvido para centralizar meus projetos, habilidades e experiências na área de desenvolvimento front-end.
 
-Currently, two official plugins are available:
+[Link para o projeto online (ex: Vercel/Netlify)]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto foi construído utilizando as ferramentas mais modernas do ecossistema JavaScript:
 
-## Expanding the ESLint configuration
+- **React.js** (Biblioteca principal)
+- **Vite** (Tooling de build rápido)
+- **Tailwind CSS** (Estilização responsiva)
+- **Lucide React** (Ícones)
+- **Framer Motion** (Animações)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Funcionalidades
+
+- [ ] **Design Responsivo:** Adaptado para dispositivos móveis, tablets e desktops.
+- [ ] **Seção de Projetos:** Galeria com cards detalhando minhas principais criações.
+- [ ] **Formulário de Contato:** Integração para recebimento de mensagens.
+- [ ] **Dark/Light Mode:** Suporte a temas claro e escuro.
+
+---
+
+## 📁 Estrutura de Pastas
+
+Para manter o projeto escalável, a seguinte estrutura foi adotada:
+
+
+
+```text
+src/
+ ├── assets/      # Imagens e arquivos estáticos
+ ├── components/  # Componentes reutilizáveis
+ ├── hooks/       # Hooks personalizados
+ ├── pages/       # Páginas principais da aplicação
+ ├── styles/      # Configurações globais de CSS
+ └── main.jsx     # Ponto de entrada
